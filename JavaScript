@@ -1,0 +1,28 @@
+// Función para obtener la hora actual
+function getCurrentTime() {
+    // Crear un objeto Date
+    var now = new Date();
+
+    // Obtener la hora, minutos y segundos
+    var hours = now.getHours();
+    var minutes = now.getMinutes();
+    var seconds = now.getSeconds();
+
+    // Formatear la hora en formato de 12 horas
+    var timeString = hours % 12 + ':' + minutes + ':' + seconds + ' ';
+    timeString += hours >= 12 ? 'PM' : 'AM';
+
+    return timeString;
+}
+
+// Función para imprimir la hora actual en la página
+function printTime() {
+    // Obtener la hora actual
+    var currentTime = getCurrentTime();
+
+    // Mostrar la hora en el elemento con id 'output'
+    document.getElementById('output').innerText = 'La hora actual es: ' + currentTime;
+}
+
+// Llamar a la función printTime para imprimir la hora actual
+printTime();
