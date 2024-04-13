@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5 Solution</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Restaurant</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Specials</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home Page</h2>
+            <p>This is the home page of our restaurant website.</p>
+        </section>
+
+        <section id="menu">
+            <h2>Menu</h2>
+            <p>This is the menu section of our restaurant website.</p>
+        </section>
+
+        <section id="specials">
+            <h2>Specials</h2>
+            <p>This is the specials section of our restaurant website.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>This is the contact section of our restaurant website.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
